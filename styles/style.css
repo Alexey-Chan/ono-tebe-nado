@@ -53,7 +53,7 @@
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 1%;
-} /* ПРИМЕНЯЕТСЯ ТАКЖЕ И К НИЖНЕМУ АДРЕСУ */
+}
 
 .header__address {
   align-self: center;
@@ -306,11 +306,14 @@
 .footer__menu-list {
   text-align: center;
   list-style: none;
+
 }
 
 .footer__menu-link {
   font-size: 18px;
   line-height: normal;
+  color: rgba(0, 0, 0, 1);
+
 }
 
 .footer__link_active {
@@ -318,12 +321,14 @@
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
+  color: rgba(0, 0, 0, 1);
 }
 
 .footer__social-list {
   display: flex;
   gap: 48px;
   list-style: none;
+
 }
 
 .footer__social-icon {
